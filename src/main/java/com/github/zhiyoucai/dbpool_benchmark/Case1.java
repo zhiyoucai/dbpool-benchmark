@@ -17,9 +17,9 @@ public class Case1 {
 	private int minPoolSize = 10;
 	private int maxPoolSize = 50;
 	private String username = "root";
-	private String password = "123456";
+	private String password = "root_sinosun";
 	private String jdbcUrl = "jdbc:mysql://127.0.0.1:3306/test";
-	private int threadCount = 100;
+	private int threadCount = 200;
 	private final String sql = "select 1";
 	private int loopCount = 1000000;
 	
